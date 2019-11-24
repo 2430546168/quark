@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="quark-admin:war">
+    <output-path>$PROJECT_DIR$/quark-admin/target</output-path>
+    <root id="archive" name="quark-admin-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="quark-admin:war exploded" />
+    </root>
+  </artifact>
+</component>
