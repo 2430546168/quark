@@ -61,7 +61,6 @@ public class PermissionServiceImpl extends BaseServiceImpl<PermissionDao, Permis
                                 .collect(Collectors.toList()));
                     });
         }
-
         return perlist;
     }
 

@@ -85,7 +85,6 @@ public class AdminUserServiceImpl extends BaseServiceImpl<AdminUserDao, AdminUse
 
     @Override
     public void saveAdminEnable(Integer[] ids) {
-
         List<AdminUser> all = findAll(Arrays.asList(ids));
         for (AdminUser user : all) {
             if (user.getEnable() == 1) {

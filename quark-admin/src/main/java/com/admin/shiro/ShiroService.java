@@ -39,7 +39,6 @@ public class ShiroService {
         filterChainDefinitionMap.put("/font-awesome/**", "anon");
         List<Permission> permissionList = permissionService.findAll();
         for (Permission p : permissionList) {
-
             if (!StringUtils.isEmpty(p.getPerurl())) {
                 String permission = "perms[" + p.getPerurl() + "]";
                 filterChainDefinitionMap.put(p.getPerurl(), permission);
@@ -74,8 +73,7 @@ public class ShiroService {
             manager.getFilterChains().clear();
 
             shiroFilterFactoryBean.getFilterChainDefinitionMap().clear();
-            shiroFilterFactoryBean
-                    .setFilterChainDefinitionMap(loadFilterChainDefinitions());
+            shiroFilterFactoryBean.setFilterChainDefinitionMap(loadFilterChainDefinitions());
             // 重新构建生成
             Map<String, String> chains = shiroFilterFactoryBean
                     .getFilterChainDefinitionMap();

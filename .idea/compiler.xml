@@ -7,14 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="quark-admin" />
+        <module name="quark-chat" />
         <module name="quark-common" />
+        <module name="quark-portal" />
         <module name="quart-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
       <module name="quark" target="1.8" />
       <module name="quark-admin" target="1.8" />
+      <module name="quark-chat" target="1.8" />
       <module name="quark-common" target="8" />
+      <module name="quark-parent" target="1.7" />
+      <module name="quark-portal" target="1.8" />
       <module name="quart-rest" target="1.8" />
     </bytecodeTargetLevel>
   </component>

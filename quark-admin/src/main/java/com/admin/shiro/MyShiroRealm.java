@@ -39,7 +39,6 @@ public class MyShiroRealm extends AuthorizingRealm {
         List<Permission> permissionList = permissionService.loadUserPermission(id);
         // 权限信息对象info,用来存放查出的用户的所有的角色（role）及权限（permission）
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
-
         permissionList.forEach(p -> info.addStringPermission(p.getPerurl()));
         return info;
     }

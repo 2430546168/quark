@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/quark.iml" filepath="$PROJECT_DIR$/quark.iml" />
       <module fileurl="file://$PROJECT_DIR$/quark-admin/quark-admin.iml" filepath="$PROJECT_DIR$/quark-admin/quark-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quark-chat/quark-chat.iml" filepath="$PROJECT_DIR$/quark-chat/quark-chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/quark-common/quark-common.iml" filepath="$PROJECT_DIR$/quark-common/quark-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quark-parent/quark-parent.iml" filepath="$PROJECT_DIR$/quark-parent/quark-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quark-portal/quark-portal.iml" filepath="$PROJECT_DIR$/quark-portal/quark-portal.iml" />
       <module fileurl="file://$PROJECT_DIR$/quart-rest/quart-rest.iml" filepath="$PROJECT_DIR$/quart-rest/quart-rest.iml" />
     </modules>
   </component>

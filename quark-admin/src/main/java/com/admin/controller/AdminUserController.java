@@ -44,7 +44,6 @@ public class AdminUserController extends BaseController {
 
     @PostMapping("/add")
     public QuarkResult addAdmin(AdminUser adminUser) {
-
         QuarkResult result = restProcessor(() -> {
             if (adminUserService.findByUserName(adminUser.getUsername()) != null)
                 return QuarkResult.error("用户名重复");
@@ -57,7 +56,6 @@ public class AdminUserController extends BaseController {
 
     @PostMapping("/delete")
     public QuarkResult deleteAdmin(@RequestParam(value = "id[]") AdminUser[] id) {
-
         QuarkResult result = restProcessor(() -> {
             List<AdminUser> collect = Arrays.asList(id);
             adminUserService.deleteInBatch(collect);
@@ -69,7 +67,6 @@ public class AdminUserController extends BaseController {
 
     @PostMapping("/saveAdminRoles")
     public QuarkResult saveAdminRoles(Integer uid, Integer[] id) {
-
         QuarkResult result = restProcessor(() -> {
             adminUserService.saveAdminRoles(uid, id);
             return QuarkResult.ok();

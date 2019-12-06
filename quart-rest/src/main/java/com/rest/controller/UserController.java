@@ -68,7 +68,6 @@ public class UserController extends BaseController {
     })
     @PostMapping("/login")
     public QuarkResult Login(String email, String password) {
-
         QuarkResult result = restProcessor(() -> {
             User loginUser = userService.findByEmail(email);
             if (loginUser == null)

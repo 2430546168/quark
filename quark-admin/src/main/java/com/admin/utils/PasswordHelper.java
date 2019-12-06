@@ -18,4 +18,6 @@ public class PasswordHelper {
         //String newPassword = new SimpleHash(algorithmName, user.getPassword()).toHex();
         user.setPassword(newPassword);
     }
+
+
 }

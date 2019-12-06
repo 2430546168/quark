@@ -2,6 +2,9 @@
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/quark-admin" />
+    <file type="web" url="file://$PROJECT_DIR$/quark-chat" />
+    <file type="web" url="file://$PROJECT_DIR$/quark-parent" />
+    <file type="web" url="file://$PROJECT_DIR$/quark-portal" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -10,6 +13,9 @@
         <option value="$PROJECT_DIR$/quark-admin/pom.xml" />
         <option value="$PROJECT_DIR$/quark-common/pom.xml" />
         <option value="$PROJECT_DIR$/quart-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/quark-chat/pom.xml" />
+        <option value="$PROJECT_DIR$/quark-portal/pom.xml" />
+        <option value="$PROJECT_DIR$/quark-parent/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
